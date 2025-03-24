@@ -9,7 +9,7 @@ const App = () => {
         .then(res => res.json())
     return (
         <div className='text-center mt-10 grid grid-cols-1 gap-4 min-h-screen text-green-700'>
-            <Suspense fallback={<h1>Loading.........</h1>}>
+            <Suspense fallback={<h1>Loading.......</h1>}>
                 
                 <Users fetchUsers={fetchUsers}/>
             </Suspense>
